@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shreyash Gawade | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h2>Shreyash Gawade</h2>
+      <button class="menu-btn" id="menuBtn">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div>
+        <p class="tag">FRONTEND DEVELOPMENT PROJECT</p>
+        <h1>Hello, I'm <span>Shreyash</span></h1>
+        <p>I build simple and interactive web experiences using HTML, CSS and JavaScript.</p>
+        <a class="btn" href="#projects">View Projects</a>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>I am an Information Technology student interested in web development, databases and software projects.</p>
+      <div class="skills">
+        <div>HTML5</div><div>CSS3</div><div>JavaScript</div><div>Responsive Design</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2>Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>TaskFlow Pro</h3>
+          <p>A task management application with authentication and CRUD functionality.</p>
+        </article>
+        <article class="card">
+          <h3>Smart Traffic AI</h3>
+          <p>An AI-based traffic monitoring project using computer vision concepts.</p>
+        </article>
+        <article class="card">
+          <h3>KisanConnect</h3>
+          <p>A farm-to-home platform concept connecting farmers with local customers.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <h2>Contact Me</h2>
+      <form id="contactForm">
+        <input id="name" type="text" placeholder="Your Name" required>
+        <input id="email" type="email" placeholder="Your Email" required>
+        <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+        <button class="btn" type="submit">Send Message</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Shreyash Gawade</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
